@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    color: #333;
+    font-size: 62.5%;
+    font-family: "Open Sans", sans-serif;
+}
+
+.left {
+    text-align: left !important;
+}
+
+body, input, textarea, select, button {
+    color: #202124;
+}
+
+a {
+    color: #1a73e8;
+    font-size: 1.5rem;
+    border-radius: 2px;
+    font-weight: 500;
+    outline: none;
+    text-decoration: none;
+    padding: 2px;
+}
+
+a:focus {
+    background-color: #1a73e826;
+}
+
+.main {
+    background: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 450px;
+    min-height: 500px;
+    margin-top: 55px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.form {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: #fff;
+    padding: 48px 40px 36px;
+    position: relative;
+}
+
+.brand-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    border-bottom: 1px solid #ccc;
+    color: #5f6368;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    padding-top: 3px;
+}
+
+.logo-label {
+    height: 16px;
+    padding: 0 18px;
+}
+
+.form .heading {
+    font-size: 2.4rem;
+    color: #202124;
+    font-weight: 400;
+    margin-top: 36px;
+}
+
+.form .desc {
+    text-align: center;
+    color: #202124;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-top: 12px;
+}
+
+.form-group {
+    display: flex;
+    margin-bottom: 16px;
+    flex-direction: column;
+}
+
+.form-label,
+.form-message {
+    text-align: left;
+}
+
+.form-label {
+    font-weight: 700;
+    padding-bottom: 6px;
+    line-height: 1.8rem;
+    font-size: 1.4rem;
+}
+
+.form-control {
+    height: 56px;
+    padding: 13px 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 1.7rem;
+    border-radius: 4px;
+}
+
+.form-control:focus {
+    border: 2px solid #1a73e8;
+}
+
+.form-group.invalid .form-control {
+    border-color: #f33a58;
+}
+
+.form-group.invalid .form-message {
+    color: #f33a58;
+}
+
+.after-form .privacy {
+    margin-top: 48px;
+    color: #5f6368;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.form-message {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+
+.submit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+.form-submit {
+    outline: none;
+    background-color: #1a73e8;
+    padding: 10px 16px;
+    font-weight: 600;
+    color: #fff;
+    border: none;
+    width: 110px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.form-submit::after {
+    content: "";
+    position: absolute;
+    border: 2px solid #1a73e8;
+    border-radius: 4px;
+    width: 114px;
+    height: 40px;
+    top: -4px;
+    left: -4px;
+    opacity: 0;
+}
+
+.form-submit:hover {
+    background-color: #1a73e8;
+}
+
+.form-submit::after:hover {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.spacer {
+    margin-top: 36px;
+}
